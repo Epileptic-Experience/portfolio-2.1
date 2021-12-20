@@ -1,7 +1,12 @@
-body{
+body {
     overflow: hidden;
     padding: 0%;
     margin: 0%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
 }
 
 nav {
@@ -19,23 +24,56 @@ nav {
     margin-top: 0%;
 }
 
-.contactos{
+.contactos {
     margin-top: 5%;
     margin-bottom: 5%;
 }
-.quesoy1{
-  text-align: center;
+
+.quesoy1 {
+    text-align: center;
 }
-.mencionables{
+
+.mencionables {
     margin-bottom: 5%;
     text-align: center;
 }
 
-footer{
+footer {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 50px;
 }
 
-.footer{
+.footer {
     color: rgba(0, 0, 0, 0.23);
+}
+
+.texto-mobile {
+    display: none;
+}
+.fila{
+    margin-top: 5%;
+}
+
+@media (max-width: 768px) {
+    .nes-bcrikko {
+        display: none;
+    }
+
+    .nes-balloon {
+        display: none;
+    }
+
+    .texto-mobile {
+        display: block;
+        margin: auto;
+    }
+
+  body{
+      overflow:scroll ;
+  }
+    .snes-jp-logo{
+        display: none;
+    }
+    
+
 }
